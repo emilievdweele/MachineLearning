@@ -1,6 +1,49 @@
 .p1 {
-  font-family: "Lucida console", 'Courier New', Courier, monospace;
 }
 body {
   background-color: AliceBlue;
+   font-family: "Lucida console", 'Courier New', Courier, monospace;
 }
+
+.p1{
+  text-align: center
+}
+
+
+h1{
+  border: 30px solid rgb(191, 232, 248);
+  background-color: rgb(191, 232, 248);
+}
+
+nav{
+  float: left;
+  width: 10%;
+  height: 700px;
+  background: rgb(191, 232, 248);
+  padding: 20px;
+}
+
+article{
+  text-align: justify
+}
+
+h2 {
+  text-align: justify
+}
+
+h2{
+  margin-left: 250px
+}
+
+ul {
+  list-style-type: none
+}
+
+ul{
+margin-left: -20px
+}
+
+h3{
+  margin-left: 250px
+}
+
