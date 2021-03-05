@@ -1,18 +1,12 @@
-.p1 {
-}
 body {
   background-color: AliceBlue;
    font-family: "Lucida console", 'Courier New', Courier, monospace;
 }
 
-.p1{
-  text-align: center
-}
-
-
 h1{
   border: 30px solid rgb(191, 232, 248);
   background-color: rgb(191, 232, 248);
+  text-align: center;
 }
 
 nav{
@@ -23,24 +17,18 @@ nav{
   padding: 20px;
 }
 
+ul {
+  list-style-type: none;
+  margin-left: -20px
+}
+
 article{
   text-align: justify
 }
 
 h2 {
-  text-align: justify
-}
-
-h2{
+  text-align: justify;
   margin-left: 250px
-}
-
-ul {
-  list-style-type: none
-}
-
-ul{
-margin-left: -20px
 }
 
 h3{
