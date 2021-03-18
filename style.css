@@ -6,6 +6,13 @@ body {
 @media only screen and (max-width:800px) {
   p {
     margin: 0;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  p {
+    width: 100%
   }
 }
 
