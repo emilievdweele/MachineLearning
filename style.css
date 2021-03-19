@@ -3,28 +3,30 @@ body {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-@media only screen and (max-width:800px) {
-  p {
-    margin: 0;
-    width: 80%;
-  }
+@media screen and (max-width: 1000px){
+
 }
 
-@media only screen and (max-width:500px){
-  p {
-    width: 100%;
-  }
+@media screen and (max-width:800px){
+
 }
 
-@media only screen and (max-width:300px){
-  p {
-    width: 100%;
-  }
+@media screen and (max-width:500px){
+
+}
+
+@media screen and (max-width:400px){
+  
+}
+
+@media screen and (max-width:300px){
+
 }
 
 h1{
   border: 30px solid rgb(191, 232, 248);
   background-color: rgb(191, 232, 248);
+  border-width: max;
   position: inherit;
   margin: 0px;
   padding: 22px 0 20px 167px;
@@ -84,7 +86,7 @@ h2 {
 }
 
 
-.p2 {
+p {
   margin-right: 400px;
   text-align: justify;
   margin-left: 250px
