@@ -40,11 +40,9 @@ nav{
   position: fixed;
 }
 
-
-ul {
+ul{
   list-style-type: none;
   margin-left: -20px;
-  margin-right: 1320px;
   padding: 10px;
   line-height: 1.8;
 }
@@ -67,25 +65,30 @@ li a:hover:not(.active){
   color:black;
 }
 
-h2 {
-  text-align: justify;
-  padding-top: 50px
-}
-
-h4{
+h2{
   margin-left: 250px
 }
 
-iframe{ 
-  width: 50%;
-  height: 450px
+table {
+  border-collapse: collapse;
+  margin-left: 250px;
+  width: 1000px;
 }
 
-p {
-  margin-right: 200px;
-  text-align: justify;
+caption{
+  text-align: left
 }
 
-article {
-  margin-left:250px;
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding-left: 8px
+}
+
+ul.list1, ul.list2{
+  list-style-type: disc;
+}
+
+.martin, .timb{
+  border: 1px solid black;
 }

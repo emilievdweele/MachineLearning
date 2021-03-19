@@ -1,0 +1,92 @@
+body {
+  background-color: AliceBlue;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+@media only screen and (max-width:800px) {
+  p {
+    margin: 0;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width:500px){
+  p {
+    width: 100%;
+  }
+}
+
+h1{
+  border: 30px solid rgb(191, 232, 248);
+  background-color: rgb(191, 232, 248);
+  position: inherit;
+  margin: 0px;
+  padding: 22px 0 20px 167px;
+}
+
+.logo {
+  border-radius: 80%;
+  position: absolute;
+  left:25px;
+  top:25px;
+}
+
+nav{
+  float: left;
+  width: 155px;
+  height: 100%;
+  background-color:rgb(191, 232, 248);
+  padding: 20px;
+  position: fixed;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-left: -20px;
+  margin-right: 1320px;
+  padding: 10px;
+  line-height: 1.8;
+}
+
+li a{ 
+  display: block;
+  width: 183.5px;
+  background-color:rgb(191, 232, 248);
+  text-decoration: none;
+  color: grey;
+  }
+  
+
+li a.active{
+  background-color: rgb(137, 218, 250);
+}
+
+li a:hover:not(.active){
+  background-color: white;
+  color:black;
+}
+
+h2 {
+  text-align: justify;
+  margin-left: 250px;
+  padding-top: 50px
+}
+
+form{
+  padding-top: 20px;
+  text-align: justify;
+  margin-left: 250px;
+  line-height: 1.8;
+  margin-right: 400px;
+}
+
+p {
+  margin-left: 250px;
+  margin-right: 200px;
+  text-align: justify;
+}
+
+.e1 {
+  line-height: 2;
+}

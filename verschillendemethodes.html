@@ -1,41 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-  <title>Machine Learning</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1;
     <link href="verschillendemethodes.css" rel="stylesheet" type="text/css"/>
+    <link href="favicon (2).ico" rel="shortcut icon" type="image/x-icon" />
+   <title>Machine Learning</title>
+    <meta charset="utf-8"> 
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width initial-scale=1;">
   </head>
 
   <body>
-    <element class="p1">
-    <h1>
-      Machine learning 
-    </h1>
-    </element class="p1">
-
-    <script src="script.js"></script>
+    <h1><img class="logo" src="/img/logo.png" width="100" height="100">
+     Machine learning      
+   </h1> 
     
-      <nav>
+  <nav>
     <ul>
-     <li><a href="index.html"> Home  <a></li>
-     <li> <a href="verschillendemethodes.html"> Verschillende methodes </a></li>
+     <li><a  href="index.html"> Home  <a></li>
+     <li> <a class="active" href="verschillendemethodes.html"> Verschillende methodes </a></li>
      <li> <a href="toepassingen.html"> Toepassingen </a></li>
      <li> <a href="video.html"> Video </a></li>
      <li> <a href="contact.html"> Contact </a></li>
+     <li> <a href="about.html"> About </a></li>
     </ul>
   </nav>
    
     <div>
       <article>
         <h2> Verschillende methodes </h2>
-            <p class="p2"> Het aantal methodes dat wordt gebruikt bij machine learning kan je grof gezegd onderverdelen in twee methodes: </p>
-            <p class="p3"> Aanleiding gevend ofwel supervised learning is een van de twee methodes van machine learning. <br>
-            Deze methode wordt meestal gebruikt. Bij deze methode leert het algoritme welke conclusies er getrokken moeten worden. Een datawetenschapper helpt het algoritme daarbij. Het algoritme krijgt dan een gelabelde dataset en wordt getraind om de output te herkennen. <br>
-            <p class="p4"> De andere methode is deductief. Een andere naam voor deze methode is unsupervised learning. <br>
-            Deze methode maakt gebruik van een meer zelfstandige manier van leren. Hierbij heeft het algoritme geen hulp nodig van een mens om ingewikkelde processen en patronen te identificeren. Het algoritme krijgt net als bij supervised learning data, maar het verschil is dat de data niet van te voren is gelabeld. De output is dan dus nog niet gedefinieerd. Het algoritme zoekt dan naar overeenkomsten tussen de data en wijst zelf labels toe aan de groepen die hij vormt uit de overeenkomsten.
-            </p>
+            <p class="p2"> Het aantal methodes dat wordt gebruikt bij machine learning kan je onderverdelen in vier methodes: </p>
+            <h3> Supervised learning </h3>
+            <p class="p3"> Aanleiding gevend ofwel supervised learning is een van de vier methodes van machine learning. <br>
+            Bij deze methode leert het algoritme welke conclusies er getrokken moeten worden. Een datawetenschapper helpt het algoritme daarbij. Het algoritme krijgt dan een gelabelde dataset en wordt getraind om de output te herkennen. De dataset kan bijvoorbeeld 100 afbeeldingen zijn waarop of leeuwen of zebra's te zien zijn. Het algoritme moet dan de kenmerken van leeuwen en zebra's achterhalen door middel van de gelabelde afbeeldingen. Uiteindelijk herkent het algoritme de kenmerken. </p>
+            <h3> Unsupervised learning </h3>
+            <p class="p4"> Een andere methode is deductief. Een andere naam voor deze methode is unsupervised learning. <br>
+            Deze methode maakt gebruik van een meer zelfstandige manier van leren. Hierbij heeft het algoritme geen hulp nodig van een mens om ingewikkelde processen en patronen te identificeren. Het algoritme krijgt net als bij supervised learning data, maar het verschil is dat de data niet van te voren is gelabeld. Het algoritme zoekt dan naar overeenkomsten tussen de data en wijst zelf labels toe aan de groepen die hij vormt uit de overeenkomsten. Stel dat het algoritme dit moet doen met als voorbeeld weer de 100 afbeeldingen van leeuwen en zebra's. Dan moet het algoritme bepalen welke afbeeldingen van leeuwen zijn en welke van zebra’s. Ook moet hij de afbeeldingen tegelijkertijd rangschikken. </p>
+            <h3> Semi-supervised learning </h3>
+            <p class="p5"> Bij semi-supervised learning wordt maar een gedeelte van de data gelabeld. Het enige wat de computer hoeft te doen is functies vinden via de gelabelde data en de overige data die dezelfde functie hebben rangschikken. Aangezien deze methode erg nauwkeurig is wordt deze het vaakst gebruikt. Neem weer het voorbeeld van de leeuwen en de zebra’s. Als er 100 foto’s zijn, zijn er bijvoorbeeld 12 foto’s van leeuwen en 12 foto’s van zebra’s gelabeld. Door bepaalde kenmerken van deze foto’s identificeert en rangschikt de computer de andere foto’s. Omdat er al een gedeelte van de data van tevoren wordt gelabeld, is deze methode nauwkeuriger dan unsupervised learning. </p>
+            <h3> Reinforcement learning </h3>
+            <p class="p6"> Reinforcement learning houdt in dat het algoritme een soort feedback van mensen gebruikt om zo de juiste informatie te laten zien. Bij deze methode wordt er geen gebruik gemaakt van gelabelde data, maar van feedback die vertelt wat goed en wat fout is. Als je bijvoorbeeld een foto van een zebra opzoekt, maar je een foto van een leeuw krijgt dan is die foto niet goed gerangschikt. Door aan te geven dat dat plaatje niet hoort bij de zoekopdracht past het algoritme de rangschikking aan van de data. Hoe meer feedback het algoritme krijgt, hoe nauwkeuriger de rangschikking wordt. Om de nauwkeurigheid van unsupervised learning beter te maken is het gebruik van reinforcement learning nodig. </p>
           </article>
     </div>
 
